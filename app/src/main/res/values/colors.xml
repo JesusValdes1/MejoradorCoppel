@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="coppel1">#FFE500</color>
+    <color name="coppel2">#425DED</color>
+    <color name="fondo">#FFFC57</color>
+    <color name="fondo2">#0458FF</color>
+    <color name="btn_fondo">#FF0404</color>
+
+    <color name="fondoAmarillo">#FDEE5C</color>
+    <color name="fondoVerde">#81F168</color>
+    <color name="fondoAzul">#00BCD4</color>
+    <color name="fondoMorado">#E17CFD</color>
+    <color name="fondoCafe">#E8B682</color>
+    <color name="fondoCeleste">#80DCFC</color>
+    <color name="fondoRosado">#FFACD6</color>
+    <color name="fondoGris">#ACACAC</color>
+    <color name="fondoNaranja">#FB9C3C</color>
+
+</resources>

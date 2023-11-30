@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:padding="16dp"
+    tools:context=".TaskDetailsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_bar_layout">
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="355dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            app:tint="@color/coppel2" />
+
+        <TextView
+            android:id="@+id/page_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar Nueva Tarea"
+            android:layout_marginHorizontal="40dp"
+            android:textColor="@color/coppel2"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/save_task_btn"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_baseline_done_24"
+            app:tint="@color/coppel2"
+
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_bar_layout"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginVertical="26dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/rounded_corner">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/titulo_text"
+            android:hint="Titulo"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginVertical="8dp"
+            android:padding="12dp"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextHoraInicio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:inputType="time"
+                android:hint="Hora inicio"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginVertical="8dp"
+                android:padding="12dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/editTextHoraFin"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="60dp"
+                android:layout_marginVertical="8dp"
+                android:ems="6"
+                android:hint="Hora fin"
+                android:inputType="time"
+                android:padding="12dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc_text"
+            android:hint="Descripción"
+            android:minLines="14"
+            android:gravity="top"
+            android:textSize="20sp"
+            android:layout_marginVertical="8dp"
+            android:padding="12dp"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/delete_task_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/btn_fondo"
+        android:gravity="center"
+        android:text="Borrar Tarea"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+
+
+</RelativeLayout>

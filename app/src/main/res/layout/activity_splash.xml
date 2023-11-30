@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/coppelLogo"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="0dp"
+        android:src="@drawable/coppel" />
+
+    <ImageView
+        android:id="@+id/coppelTiempo"
+        android:layout_width="381dp"
+        android:layout_height="201dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="0dp"
+        android:src="@drawable/tiempo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="32sp"
+        android:textColor="@color/coppel2"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <ProgressBar
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:indeterminateTint="@color/coppel2"
+        android:layout_margin="16dp"
+        />
+
+</LinearLayout>

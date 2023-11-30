@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "593954350398",
+    "project_id": "mejoradetiempos",
+    "storage_bucket": "mejoradetiempos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593954350398:android:7f7f442a0719b0c80ab86f",
+        "android_client_info": {
+          "package_name": "com.example.mejoradorcoppel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593954350398-806jvnlua3tddco51jsitos13ikh9p30.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mejoradordetiempos",
+            "certificate_hash": "fa2c7bcb450a089661d8e909b2af0156647afb57"
+          }
+        },
+        {
+          "client_id": "593954350398-4ltq1rr9ldvjfhb9suddc0ts1924ur0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWZbh-cY6Xv4QuX80wT8CzEk-UuiT9dso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593954350398-4ltq1rr9ldvjfhb9suddc0ts1924ur0l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

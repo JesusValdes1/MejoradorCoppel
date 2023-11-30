@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/page_title"
+            android:text="Selecciona el color"
+            android:textSize="32sp"
+            android:textColor="@color/coppel2"
+            android:textStyle="bold"
+        android:layout_marginVertical="10dp"/>
+
+    <LinearLayout
+        android:layout_marginVertical="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:paddingVertical="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_default"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/fondo"
+                android:text="DEFAULT" />
+
+            <Button
+                android:id="@+id/btn_default2"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/fondo2"
+                android:text="MARINO" />
+
+            <Button
+                android:id="@+id/btn_rojo"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/btn_fondo"
+                android:text="ROJO" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingVertical="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_cafe"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/fondoCafe"
+                android:text="CAFE" />
+
+            <Button
+                android:id="@+id/btn_celeste"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/fondoCeleste"
+                android:text="CELESTE" />
+
+            <Button
+                android:id="@+id/btn_morado"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/fondoMorado"
+                android:text="MORADO" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingVertical="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_naranja"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/fondoNaranja"
+                android:text="NARANJA" />
+
+            <Button
+                android:id="@+id/btn_rosa"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/fondoRosado"
+                android:text="ROSA" />
+
+            <Button
+                android:id="@+id/btn_gris"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/fondoGris"
+                android:text="GRIS" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingVertical="10dp">
+
+            <Button
+                android:id="@+id/btn_amarillo"
+                android:backgroundTint="@color/fondoAmarillo"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="AMARILLO" />
+
+            <Button
+                android:id="@+id/btn_verde"
+                android:backgroundTint="@color/fondoVerde"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="VERDE" />
+
+            <Button
+                android:id="@+id/btn_azul"
+                android:backgroundTint="@color/fondoAzul"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="AZUL" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
